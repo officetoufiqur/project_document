@@ -12,8 +12,9 @@ async function initComponents() {
         initSidebar();
     }
 
-    await loadComponent("header", "./components/header.html");
-    await loadComponent("footer", "./components/footer.html");
+    await loadComponent("employee", "./components/employee.html");
+    await loadComponent("teams", "./components/teams.html");
+    await loadComponent("onboarding", "./components/onboarding.html");
 }
 
 initComponents();
