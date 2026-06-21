@@ -15,6 +15,7 @@ async function initComponents() {
     await loadComponent("employee", "./components/employee.html");
     await loadComponent("teams", "./components/teams.html");
     await loadComponent("onboarding", "./components/onboarding.html");
+    await loadComponent("attendance", "./components/attendance.html");
 }
 
 initComponents();
