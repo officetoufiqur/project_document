@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SanMo HR & ERP System - User Manual</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body class="bg-slate-100">
+    <div class="flex">
+      <!-- SIDEBAR -->
+      <div id="sidebar"></div>
+
+      <!-- CONTENT -->
+      <main class="ml-72 flex-1 p-10">
+        <!-- COVER -->
+        <section
+          id="cover"
+          class="bg-gradient-to-r from-violet-600 to-purple-700 text-white rounded-2xl p-16 mb-10 shadow-xl"
+        >
+          <h1 class="text-5xl font-bold mb-4">SanMo HR & ERP System</h1>
+
+          <p class="text-xl">Complete User Manual & Documentation</p>
+
+          <div class="mt-8">Version: 1.0</div>
+        </section>
+
+        <!-- OVERVIEW -->
+        <section id="overview" class="bg-white rounded-xl shadow p-8 mb-8">
+          <h2 class="text-3xl font-bold mb-6">System Overview</h2>
+
+          <div class="space-y-6 text-slate-600 leading-8 text-justify">
+            <p>
+              The SanMo CRM & ERP System is a centralized, cloud-based business
+              management platform designed to streamline and automate
+              organizational operations across multiple departments. The system
+              integrates Human Resources, Accounts & Finance, SEO Operations, AI
+              Content Creation, and Software Development Management into a
+              single unified environment.
+            </p>
+
+            <p class="text-justify">
+              The platform is designed to improve operational efficiency,
+              increase employee productivity, centralize business data, and
+              provide real-time insights for management decision-making. In
+              addition to supporting internal business processes, the system is
+              structured as a scalable Software-as-a-Service (SaaS) solution
+              that can be offered to external organizations.
+            </p>
+          </div>
+
+          <div class="mt-8">
+            <h3 class="text-2xl font-semibold mb-4 text-slate-800">
+              Purpose of the System
+            </h3>
+
+            <p class="text-slate-600 leading-8 mb-6 text-justify">
+              The primary purpose of the system is to eliminate manual
+              processes, reduce operational complexity, and provide a
+              centralized workspace where departments can collaborate
+              efficiently.
+            </p>
+
+            <h4 class="text-lg font-semibold mb-4 text-slate-800">
+              The system enables organizations to:
+            </h4>
+
+            <ul class="space-y-3 text-slate-600">
+              <li>✓ Manage employees and administrative operations</li>
+              <li>✓ Track attendance, leave, payroll, and performance</li>
+              <li>✓ Control financial activities and reporting</li>
+              <li>✓ Manage creative and marketing workflows</li>
+              <li>✓ Monitor SEO activities and campaign performance</li>
+              <li>✓ Organize software development projects and tasks</li>
+              <li>✓ Generate real-time reports and business insights</li>
+              <li>✓ Improve accountability through workflow automation</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- DASHBOARD -->
+        <section id="dashboard" class="bg-white rounded-xl shadow p-8 mb-8">
+          <h2 class="text-3xl font-bold mb-4">Dashboard Module</h2>
+
+          <p class="text-slate-600 leading-8 mb-8">
+            The Dashboard Module provides role-based access to key business
+            metrics, analytics, operational summaries, and performance
+            indicators. Each user role is presented with a customized dashboard
+            tailored to their responsibilities and daily activities.
+          </p>
+
+          <div class="grid md:grid-cols-2 gap-8">
+            <!-- Admin Dashboard -->
+            <div class="border rounded-xl overflow-hidden">
+              <img
+                src="assets/images/admin.png"
+                alt="Admin Dashboard"
+                class="w-full h-[80vh] border-b"
+              />
+
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-3">Admin Dashboard</h3>
+
+                <p class="text-slate-600">
+                  Provides a complete overview of employees, attendance,
+                  projects, payroll, invoices, expenses, vouchers, payments and
+                  organizational performance.
+                </p>
+              </div>
+            </div>
+
+            <!-- HR Dashboard -->
+            <div class="border rounded-xl overflow-hidden">
+              <img
+                src="assets/images/hr.png"
+                alt="HR Dashboard"
+                class="w-full h-[80vh] border-b"
+              />
+
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-3">HR Dashboard</h3>
+
+                <p class="text-slate-600">
+                  Focuses on employee management, attendance tracking, leave
+                  distribution, recruitment activities, interviews and approval
+                  workflows.
+                </p>
+              </div>
+            </div>
+
+            <!-- Finance Dashboard -->
+            <div class="border rounded-xl overflow-hidden">
+              <img
+                src="assets/images/finance.png"
+                alt="Finance Dashboard"
+                class="w-full h-[80vh] border-b"
+              />
+
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-3">Finance Dashboard</h3>
+
+                <p class="text-slate-600">
+                  Displays financial performance, expenses, payments, invoices,
+                  vouchers, cash flow summaries and transaction reports.
+                </p>
+              </div>
+            </div>
+
+            <!-- Employee Dashboard -->
+            <div class="border rounded-xl overflow-hidden">
+              <img
+                src="assets/images/employee.png"
+                alt="Employee Dashboard"
+                class="w-full h-[80vh] border-b"
+              />
+
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-3">Employee Dashboard</h3>
+
+                <p class="text-slate-600">
+                  Allows employees to monitor attendance, working hours, leave
+                  balance, performance metrics, notifications and assigned
+                  projects.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-10">
+            <h3 class="text-2xl font-semibold mb-5">Dashboard Features</h3>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div class="bg-violet-50 rounded-xl p-5">
+                <h4 class="font-semibold">Real-time Analytics</h4>
+                <p class="text-sm text-slate-600 mt-2">
+                  Live organizational statistics and performance indicators.
+                </p>
+              </div>
+
+              <div class="bg-blue-50 rounded-xl p-5">
+                <h4 class="font-semibold">Role-Based Views</h4>
+                <p class="text-sm text-slate-600 mt-2">
+                  Customized dashboards for Admin, HR, Finance and Employees.
+                </p>
+              </div>
+
+              <div class="bg-emerald-50 rounded-xl p-5">
+                <h4 class="font-semibold">Visual Reports</h4>
+                <p class="text-sm text-slate-600 mt-2">
+                  Charts, graphs and summary widgets for analysis.
+                </p>
+              </div>
+
+              <div class="bg-amber-50 rounded-xl p-5">
+                <h4 class="font-semibold">Quick Actions</h4>
+                <p class="text-sm text-slate-600 mt-2">
+                  Fast access to operational tasks and approvals.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- EMPLOYEE -->
+        <section id="employees" class="bg-white rounded-xl shadow p-8 mb-8">
+          <h2 class="text-3xl font-bold mb-4">Employee Management Module</h2>
+
+          <p class="text-slate-600 leading-8 mb-8">
+            The Employee Management Module is responsible for managing the
+            complete employee lifecycle within the organization. This module
+            allows administrators and HR personnel to create, update, manage,
+            and monitor employee information, projects, tasks, leave requests,
+            and assigned company assets.
+          </p>
+
+          <!-- Employee Profile -->
+          <div class="border rounded-xl overflow-hidden mb-8">
+            <div class="p-6">
+              <h3 class="text-2xl font-semibold mb-4">Employee Profile</h3>
+
+              <p class="text-slate-600 mb-6">
+                The Employee Profile page provides a complete overview of
+                employee information, assigned projects, leave balances,
+                uploaded documents, login credentials and assigned company
+                assets.
+              </p>
+
+              <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-slate-50 p-5 rounded-xl">
+                  <h4 class="font-semibold mb-3">Personal Information</h4>
+
+                  <ul class="space-y-2 text-slate-600">
+                    <li>• Full Name</li>
+                    <li>• Phone Number</li>
+                    <li>• Email Address</li>
+                    <li>• Date of Birth</li>
+                    <li>• Blood Group</li>
+                    <li>• Address</li>
+                  </ul>
+                </div>
+
+                <div class="bg-slate-50 p-5 rounded-xl">
+                  <h4 class="font-semibold mb-3">Professional Information</h4>
+
+                  <ul class="space-y-2 text-slate-600">
+                    <li>• Department</li>
+                    <li>• Designation</li>
+                    <li>• Employee Type</li>
+                    <li>• Join Date</li>
+                    <li>• Salary Information</li>
+                    <li>• Employment Status</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Main Features -->
+          <h3 class="text-2xl font-semibold mb-6">Module Features</h3>
+
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="border rounded-xl p-6">
+              <h4 class="font-semibold text-lg mb-3">Employee Management</h4>
+
+              <p class="text-slate-600 mb-4">
+                Store and manage employee personal, professional, educational
+                and identification information.
+              </p>
+
+              <ul class="space-y-2 text-slate-600">
+                <li>✓ Personal Information</li>
+                <li>✓ Professional Information</li>
+                <li>✓ NID Information</li>
+                <li>✓ Educational Qualifications</li>
+                <li>✓ Resume / CV Upload</li>
+                <li>✓ Create, Edit & Delete Employee</li>
+                <li>✓ Role Assignment</li>
+              </ul>
+            </div>
+
+            <div class="border rounded-xl p-6">
+              <h4 class="font-semibold text-lg mb-3">Project Management</h4>
+
+              <p class="text-slate-600 mb-4">
+                Team Leaders can create projects and assign employees.
+              </p>
+
+              <ul class="space-y-2 text-slate-600">
+                <li>✓ Create New Project</li>
+                <li>✓ Assign Employees</li>
+                <li>✓ Track Project Status</li>
+                <li>✓ Project Notifications</li>
+                <li>✓ Employee Project Visibility</li>
+              </ul>
+            </div>
+
+            <div class="border rounded-xl p-6">
+              <h4 class="font-semibold text-lg mb-3">Task Management</h4>
+
+              <p class="text-slate-600 mb-4">
+                Employees submit daily work activities and progress.
+              </p>
+
+              <ul class="space-y-2 text-slate-600">
+                <li>✓ Daily Task Submission</li>
+                <li>✓ Task Tracking</li>
+                <li>✓ Pending Status</li>
+                <li>✓ In Progress Status</li>
+                <li>✓ Completed Status</li>
+              </ul>
+            </div>
+
+            <div class="border rounded-xl p-6">
+              <h4 class="font-semibold text-lg mb-3">Leave Management</h4>
+
+              <p class="text-slate-600 mb-4">
+                Employees can request leave through an approval workflow.
+              </p>
+
+              <ul class="space-y-2 text-slate-600">
+                <li>✓ Leave Request</li>
+                <li>✓ HR/Admin Notification</li>
+                <li>✓ Approve / Reject Leave</li>
+                <li>✓ Auto Leave Balance Deduction</li>
+                <li>✓ Auto Attendance Generation</li>
+                <li>✓ Employee Notification</li>
+              </ul>
+            </div>
+
+            <div class="border rounded-xl p-6 md:col-span-2">
+              <h4 class="font-semibold text-lg mb-3">Asset Management</h4>
+
+              <p class="text-slate-600 mb-4">
+                Maintain and track all company-owned assets and assignments.
+              </p>
+
+              <ul class="grid md:grid-cols-2 gap-2 text-slate-600">
+                <li>✓ Asset Registration</li>
+                <li>✓ Asset Assignment</li>
+                <li>✓ Asset Tracking</li>
+                <li>✓ Assignment History</li>
+                <li>✓ Employee Asset Profile</li>
+                <li>✓ Return Management</li>
+                <li>✓ Asset Status Monitoring</li>
+                <li>✓ Audit Tracking</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Workflow -->
+          <div
+            class="mt-8 bg-violet-50 p-5 rounded-r-xl"
+          >
+            <img src="./assets/images/employee_workflow.png" alt="" />
+          </div>
+        </section>
+
+        <!-- ATTENDANCE -->
+        <section id="attendance" class="bg-white rounded-xl shadow p-8 mb-8">
+          <h2 class="text-3xl font-bold mb-6">Attendance Management</h2>
+
+          <ul class="list-disc ml-6 space-y-3">
+            <li>Check In</li>
+            <li>Check Out</li>
+            <li>Attendance Summary</li>
+            <li>Late Report</li>
+            <li>Monthly Attendance Report</li>
+          </ul>
+        </section>
+
+        <!-- LEAVE -->
+        <section id="leave" class="bg-white rounded-xl shadow p-8 mb-8">
+          <h2 class="text-3xl font-bold mb-6">Leave Management</h2>
+
+          <ol class="list-decimal ml-6 space-y-3">
+            <li>Select Leave Type</li>
+            <li>Select Date Range</li>
+            <li>Provide Reason</li>
+            <li>Submit Request</li>
+          </ol>
+        </section>
+
+        <!-- PAYROLL -->
+        <section id="payroll" class="bg-white rounded-xl shadow p-8 mb-8">
+          <h2 class="text-3xl font-bold mb-6">Payroll Management</h2>
+
+          <ul class="list-disc ml-6 space-y-3">
+            <li>Generate Payroll</li>
+            <li>Approve Salary</li>
+            <li>Salary Slip Generation</li>
+            <li>Monthly Payroll Reports</li>
+          </ul>
+        </section>
+
+        <!-- FINANCE -->
+        <section id="finance" class="bg-white rounded-xl shadow p-8 mb-8">
+          <h2 class="text-3xl font-bold mb-6">Financial Management</h2>
+
+          <ul class="list-disc ml-6 space-y-3">
+            <li>Create Expense</li>
+            <li>Manage Invoices</li>
+            <li>Manage Payments</li>
+            <li>Generate Financial Reports</li>
+          </ul>
+        </section>
+
+        <!-- ROLES -->
+        <section id="roles" class="bg-white rounded-xl shadow p-8 mb-8">
+          <h2 class="text-3xl font-bold mb-6">Role Management</h2>
+
+          <table class="w-full border">
+            <thead class="bg-slate-900 text-white">
+              <tr>
+                <th class="p-4 text-left">Role</th>
+                <th class="p-4 text-left">Permissions</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr class="border-b">
+                <td class="p-4">Admin</td>
+                <td class="p-4">Full System Access</td>
+              </tr>
+
+              <tr class="border-b">
+                <td class="p-4">HR</td>
+                <td class="p-4">Employee & Leave Management</td>
+              </tr>
+
+              <tr>
+                <td class="p-4">Finance</td>
+                <td class="p-4">Payroll & Accounts</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- KPI -->
+        <section id="kpi" class="bg-white rounded-xl shadow p-8 mb-8">
+          <h2 class="text-3xl font-bold mb-6">KPI Rating</h2>
+
+          <p>
+            KPI module helps administrators track employee performance and
+            growth.
+          </p>
+        </section>
+
+        <!-- NOTIFICATIONS -->
+        <section id="notifications" class="bg-white rounded-xl shadow p-8 mb-8">
+          <h2 class="text-3xl font-bold mb-6">Notifications</h2>
+
+          <ul class="list-disc ml-6 space-y-3">
+            <li>Leave Notifications</li>
+            <li>Attendance Alerts</li>
+            <li>Payroll Alerts</li>
+            <li>System Notifications</li>
+          </ul>
+        </section>
+
+        <!-- HOLIDAY -->
+        <section id="holiday" class="bg-white rounded-xl shadow p-8 mb-8">
+          <h2 class="text-3xl font-bold mb-6">Holiday Management</h2>
+
+          <p>Manage company holidays and public holidays.</p>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="bg-white rounded-xl shadow p-8 mb-8">
+          <h2 class="text-3xl font-bold mb-6">Frequently Asked Questions</h2>
+
+          <div class="space-y-5">
+            <div>
+              <h4 class="font-semibold">How do I reset my password?</h4>
+
+              <p class="text-slate-500">Use the Forgot Password feature.</p>
+            </div>
+
+            <div>
+              <h4 class="font-semibold">How do I apply for leave?</h4>
+
+              <p class="text-slate-500">
+                Navigate to Leave Management and submit a request.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="text-center py-10 text-slate-500">
+          © 2026 SanMo HR & ERP System Documentation
+        </footer>
+      </main>
+    </div>
+
+    <script src="assets/main.js"></script>
+    <script src="assets/components.js"></script>
+  </body>
+</html>
