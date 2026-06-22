@@ -1,0 +1,187 @@
+<div>
+
+    <h2 class="text-3xl font-bold mb-4">
+        Payroll Management Module
+    </h2>
+
+    <p class="text-slate-600 leading-8 mb-8">
+        The Payroll Management Module automates salary processing based on
+        employee attendance records, bonus calculations, payroll approvals,
+        and payslip generation. This module ensures accurate salary management
+        and provides employees access to their approved payslips.
+    </p>
+
+    <div class="grid md:grid-cols-2 gap-6">
+
+        <!-- Payroll List -->
+        <div class="border rounded-xl p-6">
+
+            <h3 class="text-xl font-semibold mb-4">
+                1. Payroll List
+            </h3>
+
+            <p class="text-slate-600 mb-4">
+                Payroll is automatically generated based on the previous month's
+                attendance records.
+            </p>
+
+            <ul class="space-y-2 text-slate-600">
+                <li>✓ Generate Monthly Payroll</li>
+                <li>✓ Attendance Based Salary Calculation</li>
+                <li>✓ Bonus Generation</li>
+                <li>✓ Payroll Edit</li>
+                <li>✓ Payroll Delete</li>
+                <li>✓ Payroll Approval</li>
+                <li>✓ Auto Payslip Generation</li>
+            </ul>
+
+            <div class="mt-5 bg-violet-50 border border-violet-200 rounded-lg p-4">
+                <h4 class="font-semibold text-violet-700 mb-2">
+                    Bonus Policy
+                </h4>
+
+                <p class="text-slate-600">
+                    When the "Generate Bonus" button is clicked, the system
+                    automatically calculates <strong>50% of Basic Salary</strong>
+                    and adds it to payroll for employees whose
+                    <strong>bonus_eligibility = true</strong>.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Payslip -->
+        <div class="border rounded-xl p-6">
+
+            <h3 class="text-xl font-semibold mb-4">
+                2. Payslip Management
+            </h3>
+
+            <p class="text-slate-600 mb-4">
+                Approved payroll records are automatically converted into
+                employee payslips.
+            </p>
+
+            <ul class="space-y-2 text-slate-600">
+                <li>✓ View Payslip</li>
+                <li>✓ Download Payslip PDF</li>
+                <li>✓ Employee Self Service</li>
+                <li>✓ Monthly Payslip History</li>
+                <li>✓ Salary Breakdown</li>
+                <li>✓ Bonus Breakdown</li>
+                <li>✓ Deduction Breakdown</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <!-- Payroll Process -->
+    <div class="mt-8 border rounded-xl p-6">
+
+        <h3 class="text-xl font-semibold mb-4">
+            Payroll Processing Workflow
+        </h3>
+
+        <div class="space-y-4">
+
+            <div class="flex items-center gap-3">
+                <span class="bg-violet-600 text-white px-4 py-2 rounded-lg">
+                    Previous Month Attendance
+                </span>
+                <span>→</span>
+                <span class="bg-blue-600 text-white px-4 py-2 rounded-lg">
+                    Generate Payroll
+                </span>
+                <span>→</span>
+                <span class="bg-green-600 text-white px-4 py-2 rounded-lg">
+                    Salary Calculation
+                </span>
+            </div>
+
+            <div class="flex items-center gap-3">
+                <span class="bg-orange-600 text-white px-4 py-2 rounded-lg">
+                    Generate Bonus
+                </span>
+                <span>→</span>
+                <span class="bg-purple-600 text-white px-4 py-2 rounded-lg">
+                    Bonus Added
+                </span>
+                <span>→</span>
+                <span class="bg-cyan-600 text-white px-4 py-2 rounded-lg">
+                    Payroll Review
+                </span>
+            </div>
+
+            <div class="flex items-center gap-3">
+                <span class="bg-indigo-600 text-white px-4 py-2 rounded-lg">
+                    Approve Payroll
+                </span>
+                <span>→</span>
+                <span class="bg-emerald-600 text-white px-4 py-2 rounded-lg">
+                    Payslip Generated
+                </span>
+                <span>→</span>
+                <span class="bg-pink-600 text-white px-4 py-2 rounded-lg">
+                    Employee Can View & Download
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Key Features -->
+    <div class="mt-8">
+
+        <h3 class="text-xl font-semibold mb-4">
+            Key Features
+        </h3>
+
+        <div class="grid md:grid-cols-4 gap-4">
+
+            <div class="bg-slate-50 rounded-lg p-4">
+                <h4 class="font-semibold">
+                    Attendance Based Payroll
+                </h4>
+
+                <p class="text-sm text-slate-600 mt-2">
+                    Salary calculation based on attendance records.
+                </p>
+            </div>
+
+            <div class="bg-slate-50 rounded-lg p-4">
+                <h4 class="font-semibold">
+                    Bonus Automation
+                </h4>
+
+                <p class="text-sm text-slate-600 mt-2">
+                    Automatic bonus calculation for eligible employees.
+                </p>
+            </div>
+
+            <div class="bg-slate-50 rounded-lg p-4">
+                <h4 class="font-semibold">
+                    Payroll Approval
+                </h4>
+
+                <p class="text-sm text-slate-600 mt-2">
+                    HR/Admin approval before salary release.
+                </p>
+            </div>
+
+            <div class="bg-slate-50 rounded-lg p-4">
+                <h4 class="font-semibold">
+                    Payslip Download
+                </h4>
+
+                <p class="text-sm text-slate-600 mt-2">
+                    Employees can download PDF payslips anytime.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
