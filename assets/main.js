@@ -30,3 +30,21 @@ function initSidebar() {
 
   setActiveMenu();
 }
+
+function initMobileSidebar() {
+    const toggleBtn = document.getElementById("sidebarToggle");
+    const sidebar = document.getElementById("appSidebar");
+    const overlay = document.getElementById("sidebarOverlay");
+
+    if (!toggleBtn || !sidebar || !overlay) return;
+
+    toggleBtn.addEventListener("click", () => {
+        sidebar.classList.remove("-translate-x-full");
+        overlay.classList.remove("hidden");
+    });
+
+    overlay.addEventListener("click", () => {
+        sidebar.classList.add("-translate-x-full");
+        overlay.classList.add("hidden");
+    });
+}

@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body class="bg-slate-100">
-    <div class="flex">
+    <div class="lg:flex">
       <!-- SIDEBAR -->
       <div id="sidebar"></div>
 
       <!-- CONTENT -->
-      <main class="ml-72 flex-1 p-10">
+     <main class="lg:ml-72 flex-1 p-5 lg:p-10 pt-24 lg:pt-10">
         <!-- OVERVIEW -->
         <section id="overview" class="bg-white rounded-xl shadow mb-8">
           <div
@@ -83,125 +83,7 @@
 
         <!-- DASHBOARD -->
         <section id="dashboard" class="bg-white rounded-xl shadow p-8 mb-8">
-          <h2 class="text-3xl font-bold mb-4">Dashboard Module</h2>
-
-          <p class="text-slate-600 leading-8 mb-8">
-            The Dashboard Module provides role-based access to key business
-            metrics, analytics, operational summaries, and performance
-            indicators. Each user role is presented with a customized dashboard
-            tailored to their responsibilities and daily activities.
-          </p>
-
-          <div class="grid md:grid-cols-2 gap-8">
-            <!-- Admin Dashboard -->
-            <div class="border rounded-xl overflow-hidden">
-              <img
-                src="assets/images/admin.png"
-                alt="Admin Dashboard"
-                class="w-full h-[80vh] border-b"
-              />
-
-              <div class="p-6">
-                <h3 class="text-xl font-semibold mb-3">Admin Dashboard</h3>
-
-                <p class="text-slate-600">
-                  Provides a complete overview of employees, attendance,
-                  projects, payroll, invoices, expenses, vouchers, payments and
-                  organizational performance.
-                </p>
-              </div>
-            </div>
-
-            <!-- HR Dashboard -->
-            <div class="border rounded-xl overflow-hidden">
-              <img
-                src="assets/images/hr.png"
-                alt="HR Dashboard"
-                class="w-full h-[80vh] border-b"
-              />
-
-              <div class="p-6">
-                <h3 class="text-xl font-semibold mb-3">HR Dashboard</h3>
-
-                <p class="text-slate-600">
-                  Focuses on employee management, attendance tracking, leave
-                  distribution, recruitment activities, interviews and approval
-                  workflows.
-                </p>
-              </div>
-            </div>
-
-            <!-- Finance Dashboard -->
-            <div class="border rounded-xl overflow-hidden">
-              <img
-                src="assets/images/finance.png"
-                alt="Finance Dashboard"
-                class="w-full h-[80vh] border-b"
-              />
-
-              <div class="p-6">
-                <h3 class="text-xl font-semibold mb-3">Finance Dashboard</h3>
-
-                <p class="text-slate-600">
-                  Displays financial performance, expenses, payments, invoices,
-                  vouchers, cash flow summaries and transaction reports.
-                </p>
-              </div>
-            </div>
-
-            <!-- Employee Dashboard -->
-            <div class="border rounded-xl overflow-hidden">
-              <img
-                src="assets/images/employee.png"
-                alt="Employee Dashboard"
-                class="w-full h-[80vh] border-b"
-              />
-
-              <div class="p-6">
-                <h3 class="text-xl font-semibold mb-3">Employee Dashboard</h3>
-
-                <p class="text-slate-600">
-                  Allows employees to monitor attendance, working hours, leave
-                  balance, performance metrics, notifications and assigned
-                  projects.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="mt-10">
-            <h3 class="text-2xl font-semibold mb-5">Dashboard Features</h3>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-              <div class="bg-violet-50 rounded-xl p-5">
-                <h4 class="font-semibold">Real-time Analytics</h4>
-                <p class="text-sm text-slate-600 mt-2">
-                  Live organizational statistics and performance indicators.
-                </p>
-              </div>
-
-              <div class="bg-blue-50 rounded-xl p-5">
-                <h4 class="font-semibold">Role-Based Views</h4>
-                <p class="text-sm text-slate-600 mt-2">
-                  Customized dashboards for Admin, HR, Finance and Employees.
-                </p>
-              </div>
-
-              <div class="bg-emerald-50 rounded-xl p-5">
-                <h4 class="font-semibold">Visual Reports</h4>
-                <p class="text-sm text-slate-600 mt-2">
-                  Charts, graphs and summary widgets for analysis.
-                </p>
-              </div>
-
-              <div class="bg-amber-50 rounded-xl p-5">
-                <h4 class="font-semibold">Quick Actions</h4>
-                <p class="text-sm text-slate-600 mt-2">
-                  Fast access to operational tasks and approvals.
-                </p>
-              </div>
-            </div>
-          </div>
+          <div id="dashboard"></div>
         </section>
 
         <!-- EMPLOYEE -->

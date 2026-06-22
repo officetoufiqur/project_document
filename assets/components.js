@@ -8,6 +8,8 @@ async function loadComponent(id, file) {
 async function initComponents() {
     await loadComponent("sidebar", "./components/sidebar.html");
 
+    initMobileSidebar();
+
     if (typeof initSidebar === "function") {
         initSidebar();
     }
@@ -23,6 +25,7 @@ async function initComponents() {
     await loadComponent("notifications", "./components/notifications.html");
     await loadComponent("settings", "./components/settings.html");
     await loadComponent("faqs", "./components/faqs.html");
+    await loadComponent("dashboard", "./components/dashboard.html");
 }
 
 initComponents();
